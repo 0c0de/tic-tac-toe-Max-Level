@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head><link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"></head>
+<body style="background-color: #E7E7E7;">
+  <div class="row">
+    <div class="col s12 center player-select">
+        <!-- Switch -->
+        <div class="col s2 offset-s5 switch">
+          <label class="josefin-text" style="font-size:36px; color:black;">
+            X
+            <input type="checkbox" id="checkbox-player-select">
+            <span class="lever"></span>
+            O
+          </label>
+        </div>
+    </div>
+  </div>
+  <div class="row no-padding">
+      <div class="col s12">
+          <div class="col s1 offset-s5 table-holder">
+            <div class="col s3 box box-1" id="1"></div>
+            <div class="col s3 box box-2" id="2"></div>
+            <div class="col s3 box box-3" id="3"></div>
+            <div class="col s3 box box-4" id="4"></div>
+            <div class="col s3 box box-5" id="5"></div>
+            <div class="col s3 box box-6" id="6"></div>
+            <div class="col s3 box box-7" id="7"></div>
+            <div class="col s3 box box-8" id="8"></div>
+            <div class="col s3 box box-9" id="9"></div>
+          </div>
+        <label class="josefin-text col s12 center" style="font-size: 39px; margin-top: 10px;" id="sign-detector">You´re the X</label>
+      </div>
+    
+  </div>
+  <div class="valign-wrapper center-align points-y" style="left:10% !important;">
+      <label class="points-text" style="color:black !important;">You</label>
+  </div>
+  <div class="valign-wrapper center-align circled points-x">
+    <div class="row">
+      <label class="col s12 center points-text" id="you">0</label>
+        
+    </div>
+  </div>
+    <div class="valign-wrapper center-align points-y" style="left:75% !important;">
+      <label class="points-text" style="color:black !important;">AI</label>
+    </div>
+    <div class="valign-wrapper center-align circled points-y">
+      <div class="row">
+        <label class="col s12 center points-text" id="AI">0</label>
+      </div>
+    </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

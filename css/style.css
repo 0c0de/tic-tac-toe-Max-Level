@@ -1,0 +1,55 @@
+.no-padding{
+  padding: 0 0;
+}
+
+.josefin-text{
+  font-family: 'Josefin Sans', 'sans-serif';
+}
+
+.center-to-screen{
+  position: fixed;
+  top: 50%;
+  left:60%;
+  transform: translate(-50%, -50%);
+}
+
+.table-holder{
+  width: 290px !important;
+  height: 250px;
+}
+
+.box{
+  background-color:#2CC990;
+  height: 75px;
+  border-radius: 1px;
+  margin: 5px 10px;
+}
+
+.points-x{
+  position: absolute;
+  top: 17%;
+  left: 25%;
+}
+
+.points-y{
+  position: absolute;
+  top: 17%;
+  left: 85%;
+}
+
+.circled{
+  border-radius: 50%;
+  width: 11vw;
+  height: 11vw;
+  background-color: #2C82C9;
+}
+
+
+.points-text{
+  width:auto;
+  height: auto;
+  font-size: 60px;
+  color: white;
+  font-weight: 200;
+  margin-top: 15px;
+}
